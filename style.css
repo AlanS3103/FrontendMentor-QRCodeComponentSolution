@@ -10,12 +10,12 @@ body {
 
 .container {
   border-radius: 5px;
-  margin: 0% 40%;
+  margin: 0% 43%;
   background-color: hsl(0, 0%, 100%);
 }
 .container img {
-  max-width: 96%;
-  margin: 2%;
+  max-width: 91%;
+  margin: 5%;
   border-radius: 5px;
 }
 .container ul {
@@ -35,7 +35,7 @@ body {
 }
 
 .attribution {
-  padding: 1% 40%;
+  padding: 1% 43%;
   font-size: 11px;
   text-align: center;
 }
