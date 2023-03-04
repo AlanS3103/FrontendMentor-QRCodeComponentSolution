@@ -3,21 +3,23 @@
     margin: 0;
 }
 
-
+// Bold text function
 @mixin textBoldFont{
     font-family:'Outfit', sans-serif;
     font-weight: 700;
     opacity: 80%;
+    text-align: center;
 }
 
+// Normal text function
 @mixin textLightFont{
     font-family:'Outfit', sans-serif;
     font-weight: 100;
     opacity: 50%;
+    text-align: center;
 }
 
 // ## Colors
-
 $whiteColor: hsl(0, 0%, 100%);
 $background:  hsl(212, 45%, 89%);
 $grayishBlue: hsl(220, 15%, 55%);
@@ -25,19 +27,15 @@ $darkBlue: hsl(218, 44%, 22%);
 
 body{
     background-color: $background;
-    padding: 15% 0%;
+    padding: 10% 0%;
 }
 
 .container{
     border-radius: 5px;
     margin: 0% 40%;
     background-color: $whiteColor;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     img{
-        display: flex;
-        width: 50%;
+        max-width: 96%;
         margin: 2%;
         border-radius: 5px;
     }
@@ -53,6 +51,7 @@ body{
 }
 
 .attribution {
+    padding: 1% 40%;
     font-size: 11px;
     text-align: center;
     a {
